@@ -2,6 +2,9 @@
 ## 一、描述
 
 ​	爬虫采用scrapy 框架，redis分布式，并对url进行去重.数据存储用Mongodb,此小项目在windos平台安装运行。
+本地搭建的redis，创建爬虫取数据对列：lpush ZhihuSpider:start_urls https://www.zhihu.com/api/v4/search_v3?t=general&q=lxl&correction=1&search_hash_id=7809a94f02be5faf4edebfd7774b3c6b&time_zone=a_day&offset=0&limit=10
+
+其中：q为要查询的信息，我这里用我的名字查询的，最后爬取了478,页面数据是479，少了一个正在查找中。后期会上一些截图。
 
 ## 二、安装
 
