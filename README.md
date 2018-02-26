@@ -40,3 +40,13 @@
 6.配置settings.py
 
 7.创建启动脚步begin.py
+## 五、图片展示
+  爬虫爬取的回答总数据量：
+  https://github.com/liuxiaolei319/zhihuDataCrawl/blob/master/image/13.jpg
+  爬虫爬取的回答数据格式：
+  https://github.com/liuxiaolei319/zhihuDataCrawl/blob/master/image/12.jpg
+  添加redis队列，添加需要爬取数据的URL：
+  https://github.com/liuxiaolei319/zhihuDataCrawl/blob/master/image/14.jpg
+  启动脚本：
+  https://github.com/liuxiaolei319/zhihuDataCrawl/blob/master/image/15.jpg
+  
